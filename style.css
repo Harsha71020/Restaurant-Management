@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+    color: #333;
+    text-align: center;
+    min-height: 100vh;
+}
+
+/* Header */
+header h1 {
+    color: #e74c3c;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 0;
+    animation: fadeIn 1s ease-in;
+}
+header p {
+    font-size: 1.2em;
+    color: #555;
+    margin: 10px 0;
+}
+
+.icon {
+    margin-right: 10px;
+    color: #e74c3c;
+    font-size: 1.5em;
+}
+
+/* Main Container */
+main {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+button {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #c0392b;
+}
+
+/* Section Transitions */
+section {
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Hide sections initially */
+.hidden {
+    display: none;
+}
+
+/* Menu Styling */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button {
+    background: #27ae60;
+}
+
+li button:hover {
+    background: #219150;
+}
+
+/* Cart */
+#cart {
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#total {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Payment Section */
+#payment-section ul {
+    padding: 0;
+}
+
+#payment-section li {
+    background: none;
+    box-shadow: none;
+    padding: 5px;
+}
